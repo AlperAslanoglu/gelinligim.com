@@ -1,0 +1,25 @@
+{
+	"name": "listify",
+	"description": "The last directory theme you will ever buy.",
+	"type": "wordpress-theme",
+	"license": "GPL-2.0-or-later",
+	"authors": [
+		{
+			"name": "Astoundify",
+			"email": "contact@astoundify.com"
+		}
+	],
+	"scripts": {
+		"install-codestandards": [
+			"Dealerdirect\\Composer\\Plugin\\Installers\\PHPCodeSniffer\\Plugin::run"
+		],
+		"lint": "vendor/bin/phpcs",
+		"lint:fix": "vendor/bin/phpcbf"
+	},
+	"require-dev": {
+		"dealerdirect/phpcodesniffer-composer-installer": "^0.4.4",
+		"squizlabs/php_codesniffer": "^3.3",
+		"phpcompatibility/phpcompatibility-wp": "*",
+		"wp-coding-standards/wpcs": "^1"
+	}
+}

@@ -1,0 +1,106 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "post-grid/number-counter",
+  "title": "Number Counter",
+  "textdomain": "post-grid",
+  "category": "post-grid-tools",
+  "usesContext": [
+    "postId",
+    "loopIndex",
+    "postType",
+    "queryId"
+  ],
+  "supports": {
+    "align": [
+      "wide",
+      "full"
+    ]
+  },
+  "attributes": {
+    "wrapper": {
+      "type": "object",
+      "default": {
+        "options": {
+          "tag": "div",
+          "class": "pg-number-counter"
+        },
+        "styles": {}
+      }
+    },
+    "numberCount": {
+      "type": "object",
+      "default": {
+        "options": {
+          "tag": "div",
+          "start": 0,
+          "end": 0,
+          "duration": 1000,
+          "source": "",
+          "key": "",
+          "class": "number-count"
+        },
+        "styles": {}
+      }
+    },
+    "icon": {
+      "type": "object",
+      "default": {
+        "options": {
+          "library": "fontAwesome",
+          "srcType": "class",
+          "iconSrc": "far fa-calendar-alt",
+          "position": "",
+          "class": "number-count-icon"
+        },
+        "styles": {}
+      }
+    },
+    "prefix": {
+      "type": "object",
+      "default": {
+        "options": {
+          "text": "",
+          "class": "prefix"
+        },
+        "styles": {}
+      }
+    },
+    "postfix": {
+      "type": "object",
+      "default": {
+        "options": {
+          "text": "",
+          "class": "postfix"
+        },
+        "styles": {}
+      }
+    },
+    "visible": {
+      "type": "object",
+      "default": {}
+    },
+    "blockId": {
+      "type": "string",
+      "default": ""
+    },
+    "blockCssY": {
+      "type": "object",
+      "default": {
+        "items": {}
+      }
+    }
+  },
+  "style": "front_style",
+  "script": "front_script",
+  "keywords": [
+    "number counter",
+    "number counter block",
+    "Counter Up block",
+    "Counter Number",
+    "Progress",
+    "number counter for wordpress",
+    "number counter block for wordpress"
+  ],
+  "description": "The number counter block is a visual element used to display numerical values or statistics in an animated, engaging manner."
+}

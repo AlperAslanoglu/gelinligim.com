@@ -1,0 +1,118 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "post-grid/post-author",
+  "title": "Post Author",
+  "textdomain": "post-grid",
+  "category": "post-grid-post",
+  "usesContext": [
+    "post-grid/liveMode",
+    "postId",
+    "loopIndex",
+    "postType",
+    "queryId"
+  ],
+  "providesContext": {
+    "post-grid/postElement": "elements"
+  },
+  "supports": {
+    "align": [
+      "wide",
+      "full"
+    ]
+  },
+  "attributes": {
+    "wrapper": {
+      "type": "object",
+      "default": {
+        "options": {
+          "tag": "div",
+          "class": "pg-post-author"
+        },
+        "styles": {}
+      }
+    },
+    "elements": {
+      "type": "object",
+      "default": {
+        "items": [
+          {
+            "id": "display_name",
+            "label": "Name"
+          }
+        ]
+      }
+    },
+    "avatar": {
+      "type": "object",
+      "default": {
+        "options": {
+          "class": "avatar",
+          "size": "96",
+          "default": ""
+        },
+        "styles": {}
+      }
+    },
+    "name": {
+      "type": "object",
+      "default": {
+        "options": {
+          "class": "name",
+          "prefix": "",
+          "postfix": "",
+          "linkTo": "",
+          "linkToMeta": "",
+          "customUrl": ""
+        },
+        "styles": {}
+      }
+    },
+    "description": {
+      "type": "object",
+      "default": {
+        "options": {
+          "class": "description",
+          "prefix": "",
+          "postfix": ""
+        },
+        "styles": {}
+      }
+    },
+    "linkAttr": {
+      "type": "array",
+      "default": []
+    },
+    "blockCss": {
+      "type": "object",
+      "default": {
+        "items": {}
+      }
+    },
+    "visible": {
+      "type": "object",
+      "default": {}
+    },
+    "blockCssY": {
+      "type": "object",
+      "default": {
+        "items": {}
+      }
+    },
+    "blockId": {
+      "type": "string",
+      "default": ""
+    }
+  },
+  "script": "front_script",
+  "keywords": [
+    "post author",
+    "author profile",
+    "author bio",
+    "author links",
+    "post author block",
+    "post author for wordpress",
+    "post author block for wordpress"
+  ],
+  "description": "The post author block provides information about the author of a blog post."
+}

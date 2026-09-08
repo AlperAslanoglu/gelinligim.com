@@ -1,0 +1,273 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-08-23 11:17+0000\n"
+"PO-Revision-Date: 2020-08-23 11:18+0000\n"
+"Last-Translator: \n"
+"Language-Team: Turkish\n"
+"Language: tr_TR\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.4.2; wp-5.5"
+
+#: admin/class-wp-story-admin.php:119
+msgid "Featured image is required!"
+msgstr "Öne çıkarılan görsel zorunludur!"
+
+#: admin/class-wp-story-admin.php:120
+msgid "Do not forget setting which stories are showing."
+msgstr "Gösterilecek hikayeleri ayarlamayı unutmayın."
+
+#: admin/class-wp-story-admin.php:136, admin/class-wp-story-admin.php:137
+msgid "Displayed Stories"
+msgstr "Gösterilen Hikayeler"
+
+#: admin/class-wp-story-admin.php:145, admin/class-wp-story-admin.php:146,
+#: admin/partials/wp-story-admin-options-display.php:17
+msgid "Options"
+msgstr "Ayarlar"
+
+#: admin/class-wp-story-admin.php:164,
+#: admin/partials/wp-story-admin-fields-display.php:18
+msgid "Stories"
+msgstr "Hikayeler"
+
+#: admin/class-wp-story-admin.php:242
+msgctxt "Post Type General Name"
+msgid "Stories"
+msgstr "Hikayeler"
+
+#: admin/class-wp-story-admin.php:243
+msgctxt "Post Type Singular Name"
+msgid "Story"
+msgstr "Hikaye"
+
+#: admin/class-wp-story-admin.php:244
+msgctxt "Admin Menu text"
+msgid "Stories"
+msgstr "Hikayeler"
+
+#: admin/class-wp-story-admin.php:245
+msgctxt "Add New on Toolbar"
+msgid "Story"
+msgstr "Hikaye"
+
+#: admin/class-wp-story-admin.php:246
+msgid "Story Archives"
+msgstr "Hikaye Arşivleri"
+
+#: admin/class-wp-story-admin.php:247
+msgid "Story Attributes"
+msgstr "Hikaye Bileşenleri"
+
+#: admin/class-wp-story-admin.php:248
+msgid "Parent Story:"
+msgstr "Ebeveyn Hikaye:"
+
+#: admin/class-wp-story-admin.php:249
+msgid "All Stories"
+msgstr "Tüm Hikayeler"
+
+#: admin/class-wp-story-admin.php:250
+msgid "Add New Story"
+msgstr "Yeni Hikaye Ekle"
+
+#: admin/class-wp-story-admin.php:251
+msgid "Add New"
+msgstr "Yeni Ekle"
+
+#: admin/class-wp-story-admin.php:252
+msgid "New Story"
+msgstr "Yeni Hikaye"
+
+#: admin/class-wp-story-admin.php:253
+msgid "Edit Story"
+msgstr "Hikaye Düzenle"
+
+#: admin/class-wp-story-admin.php:254
+msgid "Update Story"
+msgstr "Hikaye Güncelle"
+
+#: admin/class-wp-story-admin.php:255
+msgid "View Story"
+msgstr "Hikaye Görüntüle"
+
+#: admin/class-wp-story-admin.php:256
+msgid "View Stories"
+msgstr "Hikayeleri Görüntüle"
+
+#: admin/class-wp-story-admin.php:257
+msgid "Search Story"
+msgstr "Hikaye Ara"
+
+#: admin/class-wp-story-admin.php:258
+msgid "Not found"
+msgstr "Bulunamadı"
+
+#: admin/class-wp-story-admin.php:259
+msgid "Not found in Trash"
+msgstr "Çöpte Bulunamadı"
+
+#: admin/class-wp-story-admin.php:260
+msgid "Featured Image"
+msgstr "Öne Çıkarılan Görsel"
+
+#: admin/class-wp-story-admin.php:261
+msgid "Set featured image"
+msgstr "Öne Çıkarılan Görseli Belirle"
+
+#: admin/class-wp-story-admin.php:262
+msgid "Remove featured image"
+msgstr "Öne Çıkarılan Görseli Sil"
+
+#: admin/class-wp-story-admin.php:263
+msgid "Use as featured image"
+msgstr "Öne Çıkarılan Görsel Olarak Ayarla"
+
+#: admin/class-wp-story-admin.php:264
+msgid "Insert into Story"
+msgstr "Hikayeye Ekle"
+
+#: admin/class-wp-story-admin.php:265
+msgid "Uploaded to this Story"
+msgstr "Hikaye İçin Yüklenenler"
+
+#: admin/class-wp-story-admin.php:266
+msgid "Stories list"
+msgstr "Hikayeler listesi"
+
+#: admin/class-wp-story-admin.php:267
+msgid "Stories list navigation"
+msgstr "Hikayeler listesi dolaşımı"
+
+#: admin/class-wp-story-admin.php:268
+msgid "Filter Stories list"
+msgstr "Hikayeler Listesini Filtrele"
+
+#: admin/class-wp-story-admin.php:271
+msgid "Story"
+msgstr "Hikaye"
+
+#: admin/class-wp-story-admin.php:305
+msgid "Stories Saved!"
+msgstr "Hikayeler Kaydedildi!"
+
+#: admin/class-wp-story-admin.php:310
+msgid "Buy Pro"
+msgstr "Buy Pro"
+
+#: admin/class-wp-story-meta-box.php:23
+msgid "Shortcode"
+msgstr "Kısakod"
+
+#: admin/class-wp-story-meta-box.php:32
+msgid "Rate Us"
+msgstr "Bizi Puanlayın"
+
+#: admin/class-wp-story-meta-box.php:85
+msgid "Please rate our plugin!"
+msgstr "Lütfen eklentimizi puanlayın!"
+
+#: admin/class-wp-story-meta-box.php:110
+msgid "Story Link Text"
+msgstr "Hikaye Link Yazısı"
+
+#: admin/class-wp-story-meta-box.php:113
+msgid "Delete"
+msgstr "Hikaye Sil"
+
+#: admin/class-wp-story-meta-box.php:119
+msgid "Story Link"
+msgstr "Hikaye Linki"
+
+#: admin/class-wp-story-meta-box.php:121
+msgid "New Tab"
+msgstr "Yeni Sekme"
+
+#: admin/class-wp-story-meta-box.php:128, admin/class-wp-story-meta-box.php:136
+msgid "Story Image"
+msgstr "Hikaye Görseli"
+
+#: admin/class-wp-story-meta-box.php:142
+msgid "Duration (Sec)"
+msgstr "Süre (Saniye)"
+
+#: admin/class-wp-story-meta-box.php:145
+msgid "PRO"
+msgstr "PRO"
+
+#: admin/class-wp-story-meta-box.php:153
+msgid "Add Story"
+msgstr "Hikaye Ekle"
+
+#: admin/class-wp-story-meta-box.php:195, admin/class-wp-story-meta-box.php:197
+msgid "Choose Image"
+msgstr "Görsel Seçin"
+
+#: admin/partials/wp-story-admin-fields-display.php:35
+msgid "Editor Display (Shortcode)"
+msgstr "Düzenleyici Yerleşimi (Kısakod)"
+
+#: admin/partials/wp-story-admin-fields-display.php:42
+msgid "Code Display (PHP)"
+msgstr "Kod Yerleşimi (PHP)"
+
+#: admin/partials/wp-story-admin-options-display.php:20
+msgid "This section available for only premium version."
+msgstr "Bu kısım sadece premium sürüm için geçerlidir."
+
+#: public/class-wp-story-public.php:111
+msgid "Touch to unmute"
+msgstr "Susturmak için dokunun"
+
+#: public/class-wp-story-public.php:112
+msgid "Press space to see next"
+msgstr "Sonraki için boşluk tuşuna basın"
+
+#: public/class-wp-story-public.php:113
+msgid "Visit link"
+msgstr "Linke git"
+
+#: public/class-wp-story-public.php:115
+msgid "ago"
+msgstr "önce"
+
+#: public/class-wp-story-public.php:116
+msgid "hour ago"
+msgstr "saat önce"
+
+#: public/class-wp-story-public.php:117
+msgid "hours ago"
+msgstr "saat önce"
+
+#: public/class-wp-story-public.php:118
+msgid "minute ago"
+msgstr "dakika önce"
+
+#: public/class-wp-story-public.php:119
+msgid "minutes ago"
+msgstr "dakika önce"
+
+#: public/class-wp-story-public.php:120
+msgid "from-now"
+msgstr "şuandan itibaren"
+
+#: public/class-wp-story-public.php:121
+msgid "seconds ago"
+msgstr "saniye önce"
+
+#: public/class-wp-story-public.php:122
+msgid "yesterday"
+msgstr "dün"
+
+#: public/class-wp-story-public.php:123
+msgid "tomorrow"
+msgstr "yarın"
+
+#: public/class-wp-story-public.php:124
+msgid "days ago"
+msgstr "gün önce"

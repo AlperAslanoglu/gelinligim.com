@@ -1,0 +1,310 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "post-grid/date-countdown",
+  "title": "Date Countdown",
+  "textdomain": "post-grid",
+  "category": "post-grid-tools",
+  "usesContext": [
+    "postId",
+    "loopIndex",
+    "postType",
+    "queryId"
+  ],
+  "supports": {
+    "align": [
+      "wide",
+      "full"
+    ]
+  },
+  "attributes": {
+    "wrapper": {
+      "type": "object",
+      "default": {
+        "options": {
+          "tag": "div",
+          "class": "pg-date-countdown"
+        },
+        "styles": {}
+      }
+    },
+    "dateCountdown": {
+      "type": "object",
+      "default": {
+        "options": {
+          "tag": "div",
+          "class": "",
+          "type": "",
+          "startDate": "",
+          "endDate": "",
+          "startDateSrc": "",
+          "endDateSrc": "",
+          "everGreenTime": {
+            "day": "",
+            "hour": "",
+            "minute": "",
+            "second": ""
+          }
+        }
+      }
+    },
+    "scheduleTime": {
+      "type": "array",
+      "default": [
+        {
+          "startTime": "",
+          "endTime": "",
+          "weekdays": {
+            "value": "0",
+            "values": [],
+            "compare": "="
+          }
+        }
+      ]
+    },
+    "countdownWrapper": {
+      "type": "object",
+      "default": {
+        "options": {
+          "tag": "div",
+          "class": ""
+        },
+        "styles": {}
+      }
+    },
+    "inner": {
+      "type": "object",
+      "default": {
+        "options": {
+          "enable": true,
+          "tag": "div",
+          "class": ""
+        },
+        "styles": {}
+      }
+    },
+    "items": {
+      "type": "object",
+      "default": {
+        "options": {
+          "tag": "div",
+          "class": "items",
+          "secondEnable": true,
+          "minuteEnable": true,
+          "hourEnable": true,
+          "dayEnable": true
+        },
+        "styles": {}
+      }
+    },
+    "count": {
+      "type": "object",
+      "default": {
+        "options": {
+          "enable": true,
+          "text": "",
+          "class": "count",
+          "position": ""
+        },
+        "styles": {}
+      }
+    },
+    "secondWrap": {
+      "type": "object",
+      "default": {
+        "options": {
+          "enable": true,
+          "tag": "div",
+          "class": "second-wrapper",
+          "label": "",
+          "prefix": ""
+        },
+        "styles": {}
+      }
+    },
+    "second": {
+      "type": "object",
+      "default": {
+        "options": {
+          "enable": true,
+          "tag": "div",
+          "class": "second-countdown",
+          "label": "",
+          "prefix": ""
+        },
+        "styles": {}
+      }
+    },
+    "minuteWrap": {
+      "type": "object",
+      "default": {
+        "options": {
+          "enable": true,
+          "tag": "div",
+          "class": "minute-wrapper",
+          "label": "",
+          "prefix": ""
+        },
+        "styles": {}
+      }
+    },
+    "minute": {
+      "type": "object",
+      "default": {
+        "options": {
+          "enable": true,
+          "tag": "div",
+          "class": "minute-countdown",
+          "label": "",
+          "prefix": ""
+        },
+        "styles": {}
+      }
+    },
+    "hourWrap": {
+      "type": "object",
+      "default": {
+        "options": {
+          "enable": true,
+          "tag": "div",
+          "class": "hour-wrapper",
+          "label": "",
+          "prefix": ""
+        },
+        "styles": {}
+      }
+    },
+    "hour": {
+      "type": "object",
+      "default": {
+        "options": {
+          "enable": true,
+          "tag": "div",
+          "class": "hour-countdown",
+          "label": "",
+          "prefix": ""
+        },
+        "styles": {}
+      }
+    },
+    "dayWrap": {
+      "type": "object",
+      "default": {
+        "options": {
+          "enable": true,
+          "tag": "div",
+          "class": "day-wrapper",
+          "label": "",
+          "prefix": ""
+        },
+        "styles": {}
+      }
+    },
+    "day": {
+      "type": "object",
+      "default": {
+        "options": {
+          "enable": true,
+          "tag": "div",
+          "class": "day-countdown",
+          "label": "",
+          "prefix": ""
+        },
+        "styles": {}
+      }
+    },
+    "icon": {
+      "type": "object",
+      "default": {
+        "options": {
+          "enable": false,
+          "library": "fontAwesome",
+          "srcType": "class",
+          "iconSrc": "far fa-calendar-alt",
+          "position": "",
+          "class": "date-countdown-icon"
+        },
+        "styles": {}
+      }
+    },
+    "separator": {
+      "type": "object",
+      "default": {
+        "options": {
+          "enable": true,
+          "text": ":",
+          "class": "separator",
+          "position": ""
+        },
+        "styles": {}
+      }
+    },
+    "label": {
+      "type": "object",
+      "default": {
+        "options": {
+          "enable": true,
+          "text": "",
+          "class": "label",
+          "position": ""
+        },
+        "styles": {}
+      }
+    },
+    "prefix": {
+      "type": "object",
+      "default": {
+        "options": {
+          "enable": false,
+          "text": "",
+          "class": "prefix"
+        },
+        "styles": {}
+      }
+    },
+    "postfix": {
+      "type": "object",
+      "default": {
+        "options": {
+          "enable": false,
+          "text": "",
+          "class": "postfix"
+        },
+        "styles": {}
+      }
+    },
+    "visible": {
+      "type": "object",
+      "default": {}
+    },
+    "editMode": {
+      "type": "boolean",
+      "default": true
+    },
+    "expiredArg": {
+      "type": "object",
+      "default": {}
+    },
+    "blockId": {
+      "type": "string",
+      "default": ""
+    },
+    "blockCssY": {
+      "type": "object",
+      "default": {
+        "items": {}
+      }
+    }
+  },
+  "style": "front_style",
+  "script": "front_script",
+  "keywords": [
+    "countdown",
+    "countdown block",
+    "date countdown",
+    "timer countdown",
+    "timer block",
+    "Countdown Timer"
+  ],
+  "description": "Highlight upcoming events with date countdown block."
+}

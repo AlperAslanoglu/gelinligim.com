@@ -1,0 +1,27 @@
+.woocommerce-account .woocommerce {
+	fieldset {
+		padding: 0;
+		border: 0;
+	}
+
+	legend {
+		@extend .widget-title;
+		display: block;
+		width: 100%;
+	}
+}
+
+body {
+	&.woocommerce-orders,
+	&.woocommerce-view-order,
+	&.woocommerce-downloads,
+	&.woocommerce-edit-account,
+	&.woocommerce-edit-address,
+	&.woocommerce-payment-methods,
+	&.woocommerce-password,
+	&.woocommerce-customer-logout {
+		.tertiary-navigation .myaccount-menu-item::before {
+			border-bottom-color: transparent !important;
+		}
+	}
+}

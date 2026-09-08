@@ -1,0 +1,121 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "post-grid/user-query",
+  "title": "User Query",
+  "textdomain": "post-grid",
+  "category": "post-grid-tools",
+  "parent": [
+    "post-grid/user-showcase",
+    "post-grid/content-slider",
+    "post-grid/masonry-wrap",
+    "post-grid/grid-wrap"
+  ],
+  "providesContext": {
+    "post-grid/blockId": "blockId",
+    "post-grid/queryId": "queryId",
+    "post-grid/userId": "userId",
+    "post-grid/loopIndex": "loopIndex"
+  },
+  "supports": {
+    "align": [
+      "wide",
+      "full"
+    ]
+  },
+  "attributes": {
+    "wrapper": {
+      "type": "object",
+      "default": {
+        "options": {
+          "class": "pg-user-query"
+        },
+        "styles": {}
+      }
+    },
+    "taxonomies": {
+      "type": "object",
+      "default": {
+        "options": {
+          "taxName": ""
+        }
+      }
+    },
+    "itemsWrap": {
+      "type": "object",
+      "default": {
+        "options": {
+          "excludedWrapper": ""
+        },
+        "styles": {}
+      }
+    },
+    "itemWrap": {
+      "type": "object",
+      "default": {
+        "options": {
+          "tag": "div",
+          "class": "item",
+          "counterClass": false,
+          "roleClass": false,
+          "oddEvenClass": false
+        },
+        "styles": {}
+      }
+    },
+    "spinnerWrap": {
+      "type": "object",
+      "default": {
+        "options": {
+          "class": "spinner"
+        },
+        "styles": {}
+      }
+    },
+    "queryArgs": {
+      "type": "object",
+      "default": {
+        "items": [
+          {
+            "val": "date",
+            "id": "orderby"
+          },
+          {
+            "val": "6",
+            "id": "number"
+          }
+        ]
+      }
+    },
+    "blockCssY": {
+      "type": "object",
+      "default": {
+        "items": {}
+      }
+    },
+    "visible": {
+      "type": "object",
+      "default": {}
+    },
+    "blockId": {
+      "type": "string",
+      "default": ""
+    }
+  },
+  "script": "front_script",
+  "keywords": [
+    "terms list",
+    "term list",
+    "taxonomy term list",
+    "category list",
+    "categories list",
+    "tag list",
+    "tags list",
+    "taxonomy list",
+    "taxonomies list",
+    "terms list block",
+    "terms list for wordpress",
+    "terms list block for wordpress"
+  ],
+  "description": "The terms list block displays a list of specific terms, providing a quick reference for readers."
+}

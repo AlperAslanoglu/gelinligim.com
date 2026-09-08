@@ -1,0 +1,185 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "post-grid/form-wrap",
+  "title": "Form Maker",
+  "textdomain": "post-grid",
+  "category": "post-grid-tools",
+  "providesContext": {
+    "post-grid/formId": "blockId"
+  },
+  "usesContext": [
+    "post-grid/popupId"
+  ],
+  "supports": {
+    "align": [
+      "wide",
+      "full"
+    ]
+  },
+  "attributes": {
+    "wrapper": {
+      "type": "object",
+      "default": {
+        "options": {
+          "tag": "div",
+          "class": "pg-form-wrap"
+        },
+        "styles": {}
+      }
+    },
+    "form": {
+      "type": "object",
+      "default": {
+        "type": "contactForm",
+        "options": {
+          "class": "",
+          "type": "contactForm"
+        },
+        "styles": {}
+      }
+    },
+    "quiz": {
+      "type": "object",
+      "default": {
+        "options": {
+          "answers": {},
+          "grades": [
+            {
+              "label": "A",
+              "max": 90,
+              "min": 70
+            },
+            {
+              "label": "B",
+              "max": 69,
+              "min": 60
+            },
+            {
+              "label": "C",
+              "max": 59,
+              "min": 50
+            },
+            {
+              "label": "D",
+              "max": 49,
+              "min": 40
+            }
+          ],
+          "shuffle": false
+        },
+        "styles": {}
+      }
+    },
+    "visible": {
+      "type": "object",
+      "default": {}
+    },
+    "onSubmit": {
+      "type": "object",
+      "default": {}
+    },
+    "onProcess": {
+      "type": "object",
+      "default": {}
+    },
+    "afterSubmit": {
+      "type": "object",
+      "default": {}
+    },
+    "submitTriggers": {
+      "type": "object",
+      "default": {}
+    },
+    "input": {
+      "type": "object",
+      "default": {
+        "options": {
+          "class": "pg-layer"
+        },
+        "styles": {}
+      }
+    },
+    "textarea": {
+      "type": "object",
+      "default": {
+        "options": {
+          "class": "pg-layer"
+        },
+        "styles": {}
+      }
+    },
+    "selectInput": {
+      "type": "object",
+      "default": {
+        "options": {
+          "class": "pg-layer"
+        },
+        "styles": {}
+      }
+    },
+    "label": {
+      "type": "object",
+      "default": {
+        "options": {
+          "class": "pg-layer"
+        },
+        "styles": {}
+      }
+    },
+    "errorWrap": {
+      "type": "object",
+      "default": {
+        "options": {
+          "tag": "div",
+          "enable": true,
+          "text": "",
+          "position": "afterInput",
+          "class": "error-wrap"
+        },
+        "styles": {}
+      }
+    },
+    "responsesMsgWrap": {
+      "type": "object",
+      "default": {
+        "options": {
+          "tag": "div",
+          "enable": true,
+          "text": "",
+          "position": "afterInput",
+          "class": "error-wrap"
+        },
+        "styles": {}
+      }
+    },
+    "blockId": {
+      "type": "string",
+      "default": ""
+    },
+    "blockCssY": {
+      "type": "object",
+      "default": {
+        "items": {}
+      }
+    }
+  },
+  "script": "front_script",
+  "keywords": [
+    "form block for wordpress",
+    "form block",
+    "form builder",
+    "form maker",
+    "dynamic form",
+    "Contact Form Plugin",
+    "opt-in form",
+    "login form",
+    "register form",
+    "custom form",
+    "wordpress form",
+    "wordpress form plugin",
+    "Subscription form",
+    "contact form block"
+  ],
+  "description": "The form block is an advanced tool for creating interactive online forms, enabling users to input and submit data, such as contact information or survey responses, on a website."
+}

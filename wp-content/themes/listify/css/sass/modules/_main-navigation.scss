@@ -1,0 +1,17 @@
+.main-navigation { 
+
+  .container {
+    overflow: hidden;
+
+    @include bp(md) {
+      overflow: visible;
+    }
+  }
+}
+
+.main-navigation--transparent {
+
+	@include bp(md) {
+		display: none;
+	}
+}

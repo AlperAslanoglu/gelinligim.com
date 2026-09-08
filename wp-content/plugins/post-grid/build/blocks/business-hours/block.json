@@ -1,0 +1,220 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "post-grid/business-hours",
+  "title": "Business Hours",
+  "textdomain": "post-grid",
+  "category": "post-grid-tools",
+  "usesContext": [
+    "postId",
+    "loopIndex",
+    "postType",
+    "queryId"
+  ],
+  "supports": {
+    "align": [
+      "wide",
+      "full"
+    ]
+  },
+  "attributes": {
+    "wrapper": {
+      "type": "object",
+      "default": {
+        "options": {
+          "tag": "div",
+          "class": "pg-business-hours",
+          "id": ""
+        },
+        "styles": {}
+      }
+    },
+    "items": {
+      "type": "object",
+      "default": {
+        "options": {
+          "tag": "div",
+          "class": "pg-business-hours"
+        },
+        "styles": {}
+      }
+    },
+    "label": {
+      "type": "object",
+      "default": {
+        "options": {
+          "tag": "div",
+          "class": "label",
+          "id": ""
+        },
+        "styles": {}
+      }
+    },
+    "timesWrap": {
+      "type": "object",
+      "default": {
+        "options": {
+          "tag": "div",
+          "class": "times-wrap",
+          "id": ""
+        },
+        "styles": {}
+      }
+    },
+    "startTime": {
+      "type": "object",
+      "default": {
+        "options": {
+          "tag": "div",
+          "class": "start-time",
+          "id": "",
+          "start": "10:00"
+        },
+        "styles": {}
+      }
+    },
+    "endTime": {
+      "type": "object",
+      "default": {
+        "options": {
+          "tag": "div",
+          "class": "end-time",
+          "id": "",
+          "end": "17:00"
+        },
+        "styles": {}
+      }
+    },
+    "separator": {
+      "type": "object",
+      "default": {
+        "options": {
+          "separator": "-",
+          "class": "separator",
+          "id": ""
+        },
+        "styles": {}
+      }
+    },
+    "closed": {
+      "type": "object",
+      "default": {
+        "options": {
+          "label": "div",
+          "class": "closed",
+          "id": "",
+          "closeText": "Closed"
+        },
+        "styles": {}
+      }
+    },
+    "elements": {
+      "type": "object",
+      "default": {
+        "options": {
+          "tag": "div",
+          "class": "item"
+        },
+        "styles": {},
+        "items": [
+          {
+            "id": "saturday",
+            "label": "Saturday",
+            "class": "business-hours-day",
+            "status": "true",
+            "start": "",
+            "end": "",
+            "closeText": "avc",
+            "styles": {}
+          },
+          {
+            "id": "sunday",
+            "label": "Sunday",
+            "class": "business-hours-day",
+            "status": "true",
+            "start": "",
+            "end": "",
+            "closeText": "",
+            "styles": {}
+          },
+          {
+            "id": "monday",
+            "label": "Monday",
+            "class": "business-hours-day",
+            "status": "",
+            "start": "",
+            "end": "",
+            "closeText": "",
+            "styles": {}
+          },
+          {
+            "id": "tuesday",
+            "label": "Tuesday",
+            "class": "business-hours-day",
+            "status": "",
+            "start": "",
+            "end": "",
+            "closeText": "",
+            "styles": {}
+          },
+          {
+            "id": "wednesday",
+            "label": "Wednesday",
+            "class": "business-hours-day",
+            "status": "",
+            "start": "",
+            "end": "",
+            "closeText": "",
+            "styles": {}
+          },
+          {
+            "id": "thursday",
+            "label": "Thursday",
+            "class": "business-hours-day",
+            "status": "",
+            "start": "",
+            "end": "",
+            "closeText": "",
+            "styles": {}
+          },
+          {
+            "id": "friday",
+            "label": "Friday",
+            "class": "business-hours-day",
+            "status": "",
+            "start": "",
+            "end": "",
+            "closeText": "",
+            "styles": {}
+          }
+        ]
+      }
+    },
+    "visible": {
+      "type": "object",
+      "default": {}
+    },
+    "blockId": {
+      "type": "string",
+      "default": ""
+    },
+    "blockCssY": {
+      "type": "object",
+      "default": {
+        "items": {}
+      }
+    }
+  },
+  "script": "front_script",
+  "keywords": [
+    "layer",
+    "html element",
+    "div element",
+    "div",
+    "html tag",
+    "layer block",
+    "layer for wordpress",
+    "layer block for wordpress"
+  ],
+  "description": "The layer block is an HTML element that can be styled and positioned on a webpage to structure and organize content."
+}

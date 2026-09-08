@@ -1,0 +1,113 @@
+<wpml-config>
+	<custom-fields>
+		<custom-field action="copy">rating</custom-field>
+		<custom-field action="copy">enable_tertiary_navigation</custom-field>
+		<custom-field action="copy">_gallery</custom-field>
+		<custom-field action="copy">_job_hours</custom-field>
+		<custom-field action="copy">_phone</custom-field>
+	</custom-fields>
+	<admin-texts>
+		<key name="theme_mods_listify">
+			<key name="label-singular" />
+			<key name="label-plural" />
+			<key name="call-to-action-title" />
+			<key name="call-to-action-description" />
+			<key name="call-to-action-button-text" />
+			<key name="call-to-action-button-href" />
+			<key name="call-to-action-button-subtext" />
+			<key name="as-seen-on-title" />
+			<key name="as-seen-on-logos" />
+			<key name="copyright-text" />
+			<key name="content-login-title" />
+			<key name="content-register-title" />
+		</key>
+		<key name="theme_mods_listify-child">
+			<key name="label-singular" />
+			<key name="label-plural" />
+			<key name="call-to-action-title" />
+			<key name="call-to-action-description" />
+			<key name="call-to-action-button-text" />
+			<key name="call-to-action-button-href" />
+			<key name="call-to-action-button-subtext" />
+			<key name="as-seen-on-title" />
+			<key name="as-seen-on-logos" />
+			<key name="copyright-text" />
+			<key name="content-login-title" />
+			<key name="content-register-title" />
+		</key>
+		<key name="widget_listify_widget_taxonomy_image_grid">
+			<key name="*">
+				<key name="description"/>
+				<key name="terms"/>
+				<key name="child_of"/>
+				<key name="parent"/>
+			</key>
+		</key>
+		<key name="widget_listify_widget_author_private_messages">
+			<key name="*">
+				<key name="subject"/>
+				<key name="message"/>
+				<key name="link_text"/>
+			</key>
+		</key>
+		<key name="widget_listify_widget_panel_listing_auhtor">
+			<key name="*">
+				<key name="contact-text"/>
+				<key name="profile-text"/>
+			</key>
+		</key>
+		<key name="widget_listify_call_to_action">
+			<key name="*">
+				<key name="description"/>
+				<key name="button-text"/>
+				<key name="button-href"/>
+				<key name="button-subtext"/>
+			</key>
+		</key>
+		<key name="widget_listify_widget_taxonomy_term_lists">
+			<key name="*">
+				<key name="description"/>
+				<key name="terms">
+					<key name="*"/>
+				</key>
+			</key>
+		</key>
+		<key name="widget_listify_widget_tabbed_listings">
+			<key name="*">
+				<key name="terms"/>
+			</key>
+		</key>
+		<key name="widget_listify_widget_feature_callout">
+			<key name="*">
+				<key name="content"/>
+				<key name="image"/>
+			</key>
+		</key>
+		<key name="widget_listify_widget_features">
+			<key name="1">
+				<key name="description"/>
+				<key name="features">
+					<key name="*">
+						<key name="description"/>
+					</key>
+				</key>
+			</key>
+		</key>
+		<key name="widget_listify_widget_recent_listings">
+			<key name="*">
+				<key name="description"/>
+				<key name="categories">
+					<key name="*"/>
+				</key>
+				<key name="regions">
+					<key name="*"/>
+				</key>
+				<key name="labels">
+					<key name="*"/>
+				</key>
+				<key name="keywords"/>
+				<key name="ids"/>
+			</key>
+		</key>
+	</admin-texts>
+</wpml-config>

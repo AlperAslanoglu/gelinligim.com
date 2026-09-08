@@ -1,0 +1,30 @@
+.page-cover {
+	@extend .listify-cover;
+}
+
+@include bp(lg) {
+
+	.page-cover--large {
+
+		& .page-title,
+		& > .cover-wrapper{
+			padding: 3em 0;
+		}
+
+		.template-home &.homepage-cover.has-map #job_listings-map-canvas  {
+			min-height: 500px;
+		}
+
+	}
+
+	.page-cover--extra-large {
+		& .page-title,
+		& > .cover-wrapper{
+			padding: 5em 0;
+		}
+
+		.template-home &.homepage-cover.has-map #job_listings-map-canvas  {
+			min-height: 600px;
+		}
+	}
+}

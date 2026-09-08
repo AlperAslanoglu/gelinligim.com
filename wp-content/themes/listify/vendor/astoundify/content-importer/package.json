@@ -1,0 +1,42 @@
+{
+  "name": "astoundify-contentimporter",
+  "version": "1.0.0",
+  "description": "Import content via JSON files for easier immediate reference and manipulation.",
+  "main": "gulpfile.js",
+  "devDependencies": {
+    "fs": "0.0.1-security",
+    "fs-extra": "^6.0.1",
+    "gulp": "^3.9.1",
+    "gulp-checktextdomain": "^2.1.1",
+    "gulp-clean": "^0.4.0",
+    "gulp-clean-css": "^3.1.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-csslint": "^1.0.0",
+    "gulp-jshint": "^2.0.4",
+    "gulp-phpcs": "^2.2.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sourcemaps": "^2.6.0",
+    "gulp-template": "^5.0.0",
+    "gulp-uglify": "^3.0.0",
+    "gulp-watch": "^5.0.0",
+    "gulp-wp-pot": "^2.0.4",
+    "gulp-zip": "^4.0.0",
+    "jshint": "^2.9.4",
+    "natives": "^1.1.6",
+    "pump": "^3.0.0"
+  },
+  "scripts": {
+    "setup": "npm install && composer install && gulp assets",
+    "dist": "gulp bundle && gulp zip && gulp clean"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Astoundify/content-importer.git"
+  },
+  "author": "Astoundify",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/Astoundify/content-importer/issues"
+  },
+  "homepage": "https://astoundify.com/"
+}

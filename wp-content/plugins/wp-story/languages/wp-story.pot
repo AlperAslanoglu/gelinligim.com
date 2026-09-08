@@ -1,0 +1,270 @@
+# Copyright (C) 2020 WP Story
+# This file is distributed under the same license as the WP Story package.
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Story\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: admin/class-wp-story-admin.php:119
+msgid "Featured image is required!"
+msgstr ""
+
+#: admin/class-wp-story-admin.php:120
+msgid "Do not forget setting which stories are showing."
+msgstr ""
+
+#: admin/class-wp-story-admin.php:136, admin/class-wp-story-admin.php:137
+msgid "Displayed Stories"
+msgstr ""
+
+#: admin/class-wp-story-admin.php:145, admin/class-wp-story-admin.php:146, admin/partials/wp-story-admin-options-display.php:17
+msgid "Options"
+msgstr ""
+
+#: admin/class-wp-story-admin.php:164, admin/partials/wp-story-admin-fields-display.php:18
+msgid "Stories"
+msgstr ""
+
+#: admin/class-wp-story-admin.php:242
+msgctxt "Post Type General Name"
+msgid "Stories"
+msgstr ""
+
+#: admin/class-wp-story-admin.php:243
+msgctxt "Post Type Singular Name"
+msgid "Story"
+msgstr ""
+
+#: admin/class-wp-story-admin.php:244
+msgctxt "Admin Menu text"
+msgid "Stories"
+msgstr ""
+
+#: admin/class-wp-story-admin.php:245
+msgctxt "Add New on Toolbar"
+msgid "Story"
+msgstr ""
+
+#: admin/class-wp-story-admin.php:246
+msgid "Story Archives"
+msgstr ""
+
+#: admin/class-wp-story-admin.php:247
+msgid "Story Attributes"
+msgstr ""
+
+#: admin/class-wp-story-admin.php:248
+msgid "Parent Story:"
+msgstr ""
+
+#: admin/class-wp-story-admin.php:249
+msgid "All Stories"
+msgstr ""
+
+#: admin/class-wp-story-admin.php:250
+msgid "Add New Story"
+msgstr ""
+
+#: admin/class-wp-story-admin.php:251
+msgid "Add New"
+msgstr ""
+
+#: admin/class-wp-story-admin.php:252
+msgid "New Story"
+msgstr ""
+
+#: admin/class-wp-story-admin.php:253
+msgid "Edit Story"
+msgstr ""
+
+#: admin/class-wp-story-admin.php:254
+msgid "Update Story"
+msgstr ""
+
+#: admin/class-wp-story-admin.php:255
+msgid "View Story"
+msgstr ""
+
+#: admin/class-wp-story-admin.php:256
+msgid "View Stories"
+msgstr ""
+
+#: admin/class-wp-story-admin.php:257
+msgid "Search Story"
+msgstr ""
+
+#: admin/class-wp-story-admin.php:258
+msgid "Not found"
+msgstr ""
+
+#: admin/class-wp-story-admin.php:259
+msgid "Not found in Trash"
+msgstr ""
+
+#: admin/class-wp-story-admin.php:260
+msgid "Featured Image"
+msgstr ""
+
+#: admin/class-wp-story-admin.php:261
+msgid "Set featured image"
+msgstr ""
+
+#: admin/class-wp-story-admin.php:262
+msgid "Remove featured image"
+msgstr ""
+
+#: admin/class-wp-story-admin.php:263
+msgid "Use as featured image"
+msgstr ""
+
+#: admin/class-wp-story-admin.php:264
+msgid "Insert into Story"
+msgstr ""
+
+#: admin/class-wp-story-admin.php:265
+msgid "Uploaded to this Story"
+msgstr ""
+
+#: admin/class-wp-story-admin.php:266
+msgid "Stories list"
+msgstr ""
+
+#: admin/class-wp-story-admin.php:267
+msgid "Stories list navigation"
+msgstr ""
+
+#: admin/class-wp-story-admin.php:268
+msgid "Filter Stories list"
+msgstr ""
+
+#: admin/class-wp-story-admin.php:271
+msgid "Story"
+msgstr ""
+
+#: admin/class-wp-story-admin.php:305
+msgid "Stories Saved!"
+msgstr ""
+
+#: admin/class-wp-story-admin.php:310
+msgid "Buy Pro"
+msgstr ""
+
+#: admin/class-wp-story-meta-box.php:23
+msgid "Shortcode"
+msgstr ""
+
+#: admin/class-wp-story-meta-box.php:32
+msgid "Rate Us"
+msgstr ""
+
+#: admin/class-wp-story-meta-box.php:85
+msgid "Please rate our plugin!"
+msgstr ""
+
+#: admin/class-wp-story-meta-box.php:110
+msgid "Story Link Text"
+msgstr ""
+
+#: admin/class-wp-story-meta-box.php:113
+msgid "Delete"
+msgstr ""
+
+#: admin/class-wp-story-meta-box.php:119
+msgid "Story Link"
+msgstr ""
+
+#: admin/class-wp-story-meta-box.php:121
+msgid "New Tab"
+msgstr ""
+
+#: admin/class-wp-story-meta-box.php:128, admin/class-wp-story-meta-box.php:136
+msgid "Story Image"
+msgstr ""
+
+#: admin/class-wp-story-meta-box.php:142
+msgid "Duration (Sec)"
+msgstr ""
+
+#: admin/class-wp-story-meta-box.php:145
+msgid "PRO"
+msgstr ""
+
+#: admin/class-wp-story-meta-box.php:153
+msgid "Add Story"
+msgstr ""
+
+#: admin/class-wp-story-meta-box.php:195, admin/class-wp-story-meta-box.php:197
+msgid "Choose Image"
+msgstr ""
+
+#: admin/partials/wp-story-admin-fields-display.php:35
+msgid "Editor Display (Shortcode)"
+msgstr ""
+
+#: admin/partials/wp-story-admin-fields-display.php:42
+msgid "Code Display (PHP)"
+msgstr ""
+
+#: admin/partials/wp-story-admin-options-display.php:20
+msgid "This section available for only premium version."
+msgstr ""
+
+#: public/class-wp-story-public.php:111
+msgid "Touch to unmute"
+msgstr ""
+
+#: public/class-wp-story-public.php:112
+msgid "Press space to see next"
+msgstr ""
+
+#: public/class-wp-story-public.php:113
+msgid "Visit link"
+msgstr ""
+
+#: public/class-wp-story-public.php:115
+msgid "ago"
+msgstr ""
+
+#: public/class-wp-story-public.php:116
+msgid "hour ago"
+msgstr ""
+
+#: public/class-wp-story-public.php:117
+msgid "hours ago"
+msgstr ""
+
+#: public/class-wp-story-public.php:118
+msgid "minute ago"
+msgstr ""
+
+#: public/class-wp-story-public.php:119
+msgid "minutes ago"
+msgstr ""
+
+#: public/class-wp-story-public.php:120
+msgid "from-now"
+msgstr ""
+
+#: public/class-wp-story-public.php:121
+msgid "seconds ago"
+msgstr ""
+
+#: public/class-wp-story-public.php:122
+msgid "yesterday"
+msgstr ""
+
+#: public/class-wp-story-public.php:123
+msgid "tomorrow"
+msgstr ""
+
+#: public/class-wp-story-public.php:124
+msgid "days ago"
+msgstr ""
